@@ -1,0 +1,75 @@
+body {
+background: none;	
+}
+.react-calendar {
+    border: none;
+    background: transparent;
+	margin: 0;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sub-container {
+	padding: 50px;
+}
+
+.react-calendar__tile {
+	background: ghostwhite;
+	font-size: large;
+}
+
+/* .blood-red {
+	background: 
+} */
+
+.MuiToolbar-regular {
+	background: lightpink;
+	color: firebrick;
+	font-family: "Lucida Grande";
+}
+
+.react-calendar button {
+	height: 75px;
+	width: 75px;
+}
+.react-calendar__tile--active{
+	color: rgba(0, 0, 0, 0.208);
+	background: border-box;
+}
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+	background: border-box;
+	color: black !important;
+}
+
+.MuiFab-sizeMedium {
+	width: 75px;
+	height: 75px;
+}
+
+.react-calendar__month-view__weekdays{
+	color: firebrick;
+}
+
+.react-calendar__navigation button {
+	color: rgb(3, 3, 3);
+	width: 120px;
+	height: 50px;
+	background:lightcoral;
+}
+
+.blood-1 {
+	background: firebrick;
+	color: white;
+}
+.predict-1 {
+	background: lightcoral;
+}
