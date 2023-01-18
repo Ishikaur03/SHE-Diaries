@@ -4,8 +4,8 @@ import { Button, Container, Icon, Table, Popup } from "semantic-ui-react";
 class Help extends Component {
   userLocations = [
     {
-      name: "Ishpreet",
-      email: "Ishpreetkaur2001@gmail.com",
+      name:"Ishpreet",
+      email:"ishikaur2001@gmail.com",
       locations: {
         latitude: "28° 35' N",
         longitude: "77° 5' E",
@@ -17,7 +17,7 @@ class Help extends Component {
   Distance = (obj1, obj2) => {
     let dist = getDistance(obj1, obj2);
     console.log(dist);
-    // console.log(toString(dist));
+     console.log(toString(dist));
     if (dist > 1000) {
       return dist / 1000 + " km away from you";
     } else {
