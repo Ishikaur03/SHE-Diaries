@@ -10,8 +10,31 @@ class Help extends Component {
         latitude: "28° 35' N",
         longitude: "77° 5' E",
       },
-    }
-    
+    },
+    {
+      name: "Damanpreet",
+      email: "damankaur@gmail.com",
+      locations: {
+        latitude: "28° 36' N",
+        longitude: "77° 6' E",
+      },
+    },
+    {
+      name: "Amrita",
+      email: "amrita@gmail.com",
+      locations: {
+        latitude: "28° 36' N",
+        longitude: "77° 3' E",
+      },
+    },
+    {
+      name: "Harjee",
+      email: "harjee22@gmail.com",
+      locations: {
+        latitude: "28° 36' N",
+        longitude: "77° 9' E",
+      },
+    },
   
   ];
   Distance = (obj1, obj2) => {
