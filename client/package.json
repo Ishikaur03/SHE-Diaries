@@ -1,7 +1,6 @@
 {
   "name": "period-tracker",
   "version": "0.1.0",
-  "homepage": "https://XifeiNi.github.io/period-tracker",
   "private": true,
   "proxy": "http://localhost:5000/",
   "dependencies": {
